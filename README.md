@@ -5,12 +5,33 @@ Some simple medical image processing python script. Wish these code can help you
 [Chinese Blog](https://www.cnblogs.com/WAoyu/tag/%E5%8C%BB%E5%AD%A6%E5%BD%B1%E5%83%8F/)
 
 ## Category
-1. raw2mha: raw volume data to mha format.
-2. mha2jpg: mha volume data to jpg slice. 
-3. resample: resample volume to specified physical size.
-4. lungSeg: use traditional image processing method to get lung mask from thoracic volume.
-5. hairRemoval: use traditional image processing to remove hair from skin image.
-6. readDicom: read dicom and visualization.
+### 1. raw2mha
+Raw volume data to mha format.
+### 2. mha2jpg
+Mha volume data to jpg slice. 
+### 3. resample
+Resample volume to specified physical size.
+
+### 4. lungSeg
+Use traditional image processing method to get lung mask from thoracic volume.
+
+<img src = "lungSeg/seg.jpg">
+
+### 5. hairRemoval
+Use traditional image processing to remove hair from skin image.
+
+<img src = "hairRemoval/show.jpg">
+
+### 6. readDicom
+Read dicom and visualization.
+
+<img src = "readDicom/show.jpg">
+
+### 7. volumeRenderingQT
+Volume rendering by using VTK, UI by using PyQT5
+
+<img src = "volumeRenderingQT/bone.jpg" width="45%">
+<img src = "volumeRenderingQT/lung.jpg" width="45%">
 
 ## Useful resources
 
