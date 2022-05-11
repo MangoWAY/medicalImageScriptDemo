@@ -33,6 +33,11 @@ Volume rendering by using VTK, UI by using PyQT5
 <img src = "volumeRenderingQT/bone.jpg" width="45%">
 <img src = "volumeRenderingQT/lung.jpg" width="45%">
 
+### 8. NiftyRegPythonWrapper
+NiftyReg is a nice medical image registration tools, see: http://cmictig.cs.ucl.ac.uk/wiki/index.php/NiftyReg
+
+Sometimes, we want to do batch operation, we can use python to control the process. I have already built a NiftyReg in windows platform, the bin files are in the win_bin.
+
 ## Useful resources
 
 1. Use Deep learning method to segment lung, it is a good work can be directly used to your data. see: https://github.com/JoHof/lungmask
