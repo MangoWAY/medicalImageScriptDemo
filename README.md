@@ -82,7 +82,8 @@ issn = {0010-4825},
 doi = {https://doi.org/10.1016/j.compbiomed.2022.105780},
 url = {https://www.sciencedirect.com/science/article/pii/S0010482522005479},
 author = {Yuanbo He and Aoyu Wang and Shuai Li and Yikang Yang and Aimin Hao},
-keywords = {Nonfinite-modality, Data augmentation, Improved 3D VAE, Brain image registration},
+keywords = {Nonfinite-modality, Data augmentation, Improved 3D VAE, Brain image registration}
+}
 ```
 ```
 @article{HE2022105876,
@@ -94,6 +95,6 @@ keywords = {Nonfinite-modality, Data augmentation, Improved 3D VAE, Brain image 
   doi = {https://doi.org/10.1016/j.compbiomed.2022.105876},
   url = {https://www.sciencedirect.com/science/article/pii/S001048252200628X},
   author = {Yuanbo He and Aoyu Wang and Shuai Li and Aimin Hao},
-  keywords = {Thoracic CT registration, Anatomical structure-aware strategy, Deformation ability-aware dissimilarity metric, Motion pattern-aware regularization, A novel hierarchical strategy},
+  keywords = {Thoracic CT registration, Anatomical structure-aware strategy, Deformation ability-aware dissimilarity metric, Motion pattern-aware regularization, A novel hierarchical strategy}
   }
 ```
