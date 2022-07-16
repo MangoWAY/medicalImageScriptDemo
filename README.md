@@ -38,6 +38,11 @@ NiftyReg is a nice medical image registration tools, see: http://cmictig.cs.ucl.
 
 Sometimes, we want to do batch operation, we can use python to control the process. I have already built a NiftyReg in windows platform, the bin files are in the win_bin.
 
+### 9. Nonfinite-modality data augmentation for brain image registration
+This is our published paper for brain image registration. We synthesize some "brain" image to augment the exist deep learning-based brain image registration method. Please see: https://doi.org/10.1016/j.compbiomed.2022.105780 and the relative repo is https://github.com/MangoWAY/SMIBID_BrainRegistration
+
+### 10. Hierarchical anatomical structure-aware based thoracic CT images registration
+This is our published paper for thoracic CT images registration. We used the structure-aware based strategy and FFD-based framework to register the thoracic CT images. Please see: https://doi.org/10.1016/j.compbiomed.2022.105876 and the relative repo is https://github.com/heluxixue/Structure_Aware_Registration
 ## Useful resources
 
 1. Use Deep learning method to segment lung, it is a good work can be directly used to your data. see: https://github.com/JoHof/lungmask
@@ -64,4 +69,31 @@ If you think my work can help, you can cite my work. ♥️
   year = {2022}
 }
 
+```
+For paper
+```
+@article{HE2022105780,
+title = {Nonfinite-modality data augmentation for brain image registration},
+journal = {Computers in Biology and Medicine},
+volume = {147},
+pages = {105780},
+year = {2022},
+issn = {0010-4825},
+doi = {https://doi.org/10.1016/j.compbiomed.2022.105780},
+url = {https://www.sciencedirect.com/science/article/pii/S0010482522005479},
+author = {Yuanbo He and Aoyu Wang and Shuai Li and Yikang Yang and Aimin Hao},
+keywords = {Nonfinite-modality, Data augmentation, Improved 3D VAE, Brain image registration},
+```
+```
+@article{HE2022105876,
+  title = {Hierarchical anatomical structure-aware based thoracic CT images registration},
+  journal = {Computers in Biology and Medicine},
+  pages = {105876},
+  year = {2022},
+  issn = {0010-4825},
+  doi = {https://doi.org/10.1016/j.compbiomed.2022.105876},
+  url = {https://www.sciencedirect.com/science/article/pii/S001048252200628X},
+  author = {Yuanbo He and Aoyu Wang and Shuai Li and Aimin Hao},
+  keywords = {Thoracic CT registration, Anatomical structure-aware strategy, Deformation ability-aware dissimilarity metric, Motion pattern-aware regularization, A novel hierarchical strategy},
+  }
 ```
